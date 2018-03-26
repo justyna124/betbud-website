@@ -6,6 +6,5 @@
   "author": "Lenovo <jusnos>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "4.0.0"
   }
 }

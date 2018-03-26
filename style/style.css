@@ -1,0 +1,108 @@
+body {
+    position: relative;
+}
+
+#about, #cooperation, #offer, #contact {
+    padding-top: 50px;
+}
+
+.affix {
+    top: 0;
+    z-index: 9999 !important;
+    right: 0;
+    left: 0;
+}
+
+.affix + .container {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+}
+
+.navbar-inverse {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: relative;
+    margin-bottom: auto;
+}
+
+.bg-green {
+    background-color: #78b543;
+}
+
+.filter {
+    filter: grayscale(100%);
+    background-color: #6c757d;
+}
+
+.filter:hover {
+    filter: none;
+}
+
+.glyphicon-home {
+    color: white;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: #101010;
+}
+
+
+.item {
+    height: 150px;
+    width: 100%;
+}
+
+.item img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    border: 1px solid lightgrey;
+}
+
+.carousel-indicators .active {
+    background-color: #bbbbbb;
+}
+
+.carousel-caption a {
+    color: #bbbbbb;
+}
+
+.glyphicon-earphone {
+    padding-right: 1px;
+}
+
+.glyphicon-send {
+    padding-right: 10px;
+
+}
+
+.icon {
+    padding-top: 13px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #78b543;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #78b543;
+    color: white;
+}
+
+
+
+
