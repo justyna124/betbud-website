@@ -1,17 +1,13 @@
 body {
     position: relative;
 }
-.logo{
-    /*width: 60%;*/
-    float: right;
-    margin-right: 20%;
-
-}
 
 #about, #cooperation, #offer, #contact {
-    padding-top: 50px;
+    padding-top: 40px;
 }
-
+h1 small{
+    color: #78b543;
+}
 .affix {
     top: 0;
     z-index: 9999 !important;
@@ -45,13 +41,13 @@ body {
 }
 
 .filter {
-    /*filter: grayscale(100%);*/
+
     filter:gray;
     -webkit-filter:grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
 
-    /*background-color: #6c757d;*/
+
 }
 
 .filter:hover {
@@ -78,6 +74,10 @@ a.thumbnail.active {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
+}
+.column{
+    column-count: 3;
+    column-gap: 30px;
 }
 
 .carousel-indicators li {
@@ -112,6 +112,9 @@ a.thumbnail.active {
     text-align: center;
     background-color: #78b543;
     color: white;
+}
+.padding-bottom-40{
+    padding-bottom: 40px;
 }
 
 
