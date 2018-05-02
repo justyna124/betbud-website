@@ -1,6 +1,12 @@
 body {
     position: relative;
 }
+.logo{
+    /*width: 60%;*/
+    float: right;
+    margin-right: 20%;
+
+}
 
 #about, #cooperation, #offer, #contact {
     padding-top: 50px;
@@ -39,8 +45,13 @@ body {
 }
 
 .filter {
-    filter: grayscale(100%);
-    background-color: #6c757d;
+    /*filter: grayscale(100%);*/
+    filter:gray;
+    -webkit-filter:grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+
+    /*background-color: #6c757d;*/
 }
 
 .filter:hover {
