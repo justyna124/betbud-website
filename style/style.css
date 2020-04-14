@@ -1,7 +1,9 @@
 body {
     position: relative;
 }
-
+.modal-title{
+    color: #78b543;
+}
 #about, #cooperation,#certificate, #offer, #contact {
     padding-top: 40px;
 }

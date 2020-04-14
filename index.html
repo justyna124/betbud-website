@@ -15,6 +15,41 @@
     <link rel="Stylesheet" type="text/css" href="style/style.css"/>
 </head>
 <body data-spy="scroll" data-target=".navbar-inverse">
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center">KOMUNIKAT W SPRAWIE ORGANIZACJI PRACY W
+                    ZWIĄZKU Z SYTUACJĄ EPIDEMIOLOGICZNĄ</h4>
+            </div>
+            <div class="modal-body text-center">
+                <p>Szanowni Państwo,</p>
+                <p>W związku z zaistniałą sytuacją epidemiologiczną, w trosce o zdrowie i
+                    bezpieczeństwo Państwa i pracowników naszej firmy, zwracamy się z prośba o
+                    ograniczanie wizyt w siedzibie firmy, w przypadku braku takiej konieczności.</p>
+                <p><strong>Wychodząc na przeciw Państwa oczekiwaniom informujemy, że realizujemy
+                    zamówienia na dostawy dokonywane telefonicznie pod nr tel.:</strong></p>
+                <p><strong>602 314 107</strong></p>
+                <p><strong>602 722 639</strong></p>
+                <p><strong>Troszcząc się o zdrowie Państwa jak i naszych pracowników informujemy, że
+                    wszelkie rozliczenia za dostawy wg wcześniejszych ustaleń telefonicznych,
+                    będą dokonywane na linii kierowca/klient.</strong></p>
+                <p><strong>Wszystkie wymagane dokumenty do rozliczenia dostaw (paragon, FV,
+                    dokument dostawy) będzie posiadał nasz kierowca i to kierowca będzie
+                    pobierał należność za wykonaną dostawę (na podstawie posiadanych
+                    dokumentów), co do minimum ograniczy ryzyko związane z zaistniałą sytuacją.</strong></p>
+                <p><strong>Za zaistniałe utrudnienia przepraszamy i prosimy o wyrozumiałość w tym
+                    trudnym dla nas wszystkich czasie.</strong></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container" id="home">
     <div class="row">
         <div class="col-xs-2 ">
@@ -193,7 +228,9 @@
                             <li>Pustak szalunkowy 20x25x50 (beton C16/20)</li>
                             <li>Pustak szalunkowy 25x25x50 (beton C16/20)</li>
                             <li>Pustak szalunkowy 30x25x50 (beton C16/20)</li>
+                            <li>Pustak filarowy 30x30x25 (beton C16/20)</li>
                             <li>Bloczek pełny 15x25x30 (beton C16/20)</li>
+
 
                             <br>
                             <li><a target="_blank" href="images/oferta-pustaki.pdf">Szczegółowa oferta</a></li>
@@ -437,6 +474,10 @@
     </div>
 </footer>
 <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
+
     $(document).ready(function () {
         $('.carousel').carousel({
             interval: 3000
